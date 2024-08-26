@@ -36,19 +36,21 @@
   margin-bottom: 50px;
 }
 .hero-connect {
-  padding: 25px 40px;
+  padding: 25px 60px;
   border-radius: 50px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
   cursor: pointer;
 }
 
 .hero-resume {
-  padding: 25px 75px;
+  padding: 25px 60px;
   border-radius: 50px;
   border: 2px solid white;
-  font-size: 22px;
+  font-size: 28x;
   cursor: pointer;
   transition: 0.5s;
+  color: white;
+  text-decoration: none;
 }
 
 .hero-connect:hover {

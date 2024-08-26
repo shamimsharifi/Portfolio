@@ -1,5 +1,5 @@
 import React from "react";
-import footer_logo from "../../assets/footer_logo.svg";
+import footer_logo from "../../assets/footer.webp";
 import "./Footer.css";
 import user_icon from "../../assets/user_icon.svg";
 
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-left">
           <img src={footer_logo} alt="" />
-          <p>I am a sweeeeeet girl</p>
+          <p>Subscribe for innovative software solutions</p>
         </div>
         <div className="footer-right">
           <div className="footer-email-input">
@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="footer-bottom-left">
           {" "}
-          2024 Shamim Sharifi. All rights are reserved.
+          © 2024 Shamim Sharifi. All rights reserved.
         </p>
         <div className="footer-bottom-right">
           <p>Terms of Service</p>

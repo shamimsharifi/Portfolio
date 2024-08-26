@@ -12,6 +12,9 @@
   font-size: 20px;
   max-width: 400px;
 }
+.footer-left img {
+  width: 150px;
+}
 .footer-right {
   display: flex;
   align-items: center;

@@ -18,17 +18,27 @@
   align-items: center;
   list-style: none;
   gap: 60px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .nav-connect {
-  padding: 20px 40px;
+  padding: 20px 20px;
   border-radius: 50px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
-  font-size: 22px;
+  font-size: 25px;
   cursor: pointer;
   transition: 0.5s;
   margin-right: 35px;
 }
+.link-style,
+.hero-connect {
+  color: #fff; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; 
+  display: inline-block; 
+  transition: background-color 0.3s ease; /
+}
+
 .nav-connect:hover {
   transform: scale(1.05);
 }
@@ -37,6 +47,9 @@
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-menu li img {
   display: flex;

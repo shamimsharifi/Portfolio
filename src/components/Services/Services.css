@@ -55,12 +55,12 @@
   line-height: 40px;
   max-width: 300px;
 }
-.services-readmore {
+/* .services-readmore {
   display: flex;
   gap: 20px;
   align-items: center;
   margin-top: 20px;
-}
+} */
 
 .service-format:hover {
   border: 2px solid #ff00ff;

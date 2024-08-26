@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile.png";
+import my_Resume from "../../assets/shamim_resume.pdf";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,8 +19,19 @@ const Hero = () => {
         solutions
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
-        <div className="hero-resume">My resume</div>
+        {/* <div className="hero-connect">Connect with me</div> */}
+        {/* <div className="hero-resume">My resume</div> */}
+        <Link to="/contact" className="hero-connect">
+          Connect with me
+        </Link>
+        <a
+          href={my_Resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hero-resume"
+        >
+          View My Resume
+        </a>
       </div>
     </div>
   );
